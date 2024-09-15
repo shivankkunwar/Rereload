@@ -1,0 +1,25 @@
+{
+  "name": "rereload",
+  "version": "1.0.5",
+  "description": "A file watcher that restarts a script when files change",
+  "main": "index.js",
+  "bin": {
+    "rereload": "./cli.js"
+  },
+  "scripts": {
+    "start": "node cli.js",
+    "test": "jest"
+  },
+  "dependencies": {
+    "chokidar": "^4.0.0"
+  },
+  "keywords": [
+    "file",
+    "watcher",
+    "restart",
+    "script",
+    "reload"
+  ],
+  "author": "shivank kunwar",
+  "license": "ISC"
+}
